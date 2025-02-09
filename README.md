@@ -68,9 +68,8 @@ To get a local copy up and running follow these simple steps.
     ```
 
 ## Usage
-    To use the Markdown parser and renderer, create instances of MarkdownParser and HTMLRenderer and call their methods:
+To use the Markdown parser and renderer, create instances of MarkdownParser and HTMLRenderer and call their methods:
 
-    ```C#
     using CatMarkdown.src.Parsing;
     using CatMarkdown.src.Rendering;
 
@@ -82,4 +81,3 @@ To get a local copy up and running follow these simple steps.
     string html = renderer.Render(parsedContent);
 
     Console.WriteLine(html);
-    ```
